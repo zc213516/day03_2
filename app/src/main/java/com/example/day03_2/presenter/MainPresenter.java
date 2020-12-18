@@ -15,6 +15,7 @@ public class MainPresenter extends BasePresenter<MainContract.IMainView> impleme
     public MainPresenter(MainContract.IMainView mainView) {
 
         //我修改了这一行
+        //我有修改了一行
         this.mainView = mainView;
         mainModel = new MainModel(this);
     }
