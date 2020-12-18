@@ -9,6 +9,7 @@ public abstract class BaseActivity<T extends BasePresenter> extends AppCompatAct
     public T presenter;
     @Override
     //我加了一行新东西
+    //我宿舍
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutID());
