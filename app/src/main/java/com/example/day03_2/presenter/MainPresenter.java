@@ -22,7 +22,7 @@ public class MainPresenter extends BasePresenter<MainContract.IMainView> impleme
 
 
     //你猜猜我改了什么
-    //是是是
+    //我是张超
     @Override
     public void login(String name, String password) {
        mainModel.getLoginData("", new ResultCallback<UserBean>() {
