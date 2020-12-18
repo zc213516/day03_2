@@ -13,16 +13,9 @@ public class MainPresenter extends BasePresenter<MainContract.IMainView> impleme
     private MainContract.IMainModel mainModel;
 
     public MainPresenter(MainContract.IMainView mainView) {
-
-        //我修改了这一行
-        //我有修改了一行
         this.mainView = mainView;
         mainModel = new MainModel(this);
     }
-
-
-    //你猜猜我改了什么
-    //我是张超
     @Override
     public void login(String name, String password) {
        mainModel.getLoginData("", new ResultCallback<UserBean>() {
